@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX_FILENAME_LENGTH 256
-#define DEAULT_DATA 25
+#define DEFAULT_DATA 25
 
 int main(int argc, char *argv[]){
 
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]){
 
     fclose(filePointer);
 
-    printf("This is the %s. And its content:- %d", fileName, data);
+    printf("This is the %s. And its content:- %d\n", fileName, data);
 
     return 0;
 }
