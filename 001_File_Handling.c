@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX_FILENAME_LENGTH 256
-#define DEFAULT_DATA 25
+#define DEFAULT_DATA 5202
 
 int main(int argc, char *argv[]){
 
