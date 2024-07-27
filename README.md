@@ -1,7 +1,7 @@
 NOTE :- This whole repository is designed to aid me in learning the Low Level Implementations of C language.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------
 Aim :- This Program is designed to perform simple File I/O in C Language. 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------
 Algorithm --> 
 1. Get the File name the user want to create/access. We are opening the File in W+ Mode.
 2. If the File pointer returns a NULL value, the file doesn't get assigned an address within the Memory. So, it doesn't exist.
@@ -9,7 +9,7 @@ Algorithm -->
 4. Rewind the pointer to the File's offset.
 5. Close the File.
 6. Read the content of the File (OPTIONAL).
-
+--------------------------------------------------------------------------------------------------------------------------------------------------
 New Concepts I learned about :- 
 
 1. FILE: This is a structure defined in the C standard library (stdio.h) that represents a file stream.
@@ -60,12 +60,12 @@ New Concepts I learned about :-
     EPERM (1): Operation not permitted
    
     These are just a few examples of the many possible values of errno. The specific values of errno can vary depending on the operating system and the library being used.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NOTE :- 'errno' is a global variable in the C standard library that is used to store the error code of the last error that occurred in a system call or library function.
          When a system call or library function encounters an error, it sets the value of 'errno' to a specific error code that indicates the type of error that occurred. 
          The error code is typically a small integer value that is defined in the <errno.h> header file.
         'errno' is used in conjunction with the 'perror()' function to print error messages to the standard error stream (stderr).
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 6. scanf()  :  Reads from the stdin.                Used for reading input from the user.
    fscanf() :  Reads from the FILE stream.          Used for reading input from the files.
    sscanf() :  Reads from a String.                 Used for Parsing strings.
@@ -74,7 +74,7 @@ NOTE :- 'errno' is a global variable in the C standard library that is used to s
    fprintf() : Prints out to a file.
    sprintf() : Prints out to a string array.        SECURITY RISK -- Can cause buffer overflow. 'snprintf' can be used alternatively, as it establishes a fixed size for the specified buffer.
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
