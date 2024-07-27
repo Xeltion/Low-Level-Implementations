@@ -1,6 +1,6 @@
 NOTE :- This whole repository is designed to aid me in learning the Low Level Implementations of C language.
 --------------------------------------------------------------------------------------------------------------------------------------------------
-Aim :- This Program is designed to perform simple File I/O in C Language. 
+Aim :- This Program is designed to perform a Simple Search for a Folder, within a Unix-based System.
 --------------------------------------------------------------------------------------------------------------------------------------------------
 Algorithm --> 
 1. Get the File name the user want to create/access. We are opening the File in W+ Mode.
